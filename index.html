@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ansh | Portfolio</title>
+<meta name="description" content="District-level football player and drawing competition winner, pursuing a BBA through the Digital Business and Entrepreneurship programme.">
+<meta name="theme-color" content="#0B3D2E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body id="top">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="#fff" stroke="#111" stroke-width="1.2"/><path d="M12 7.2l4.2 3-1.6 5H9.4l-1.6-5z" fill="#111"/><path d="M12 7.2V1.5M16.2 10.2l5.3-1.8M14.6 15.2l3.2 4.5M9.4 15.2l-3.2 4.5M7.8 10.2L2.5 8.4" stroke="#111" stroke-width="1.2" fill="none"/></symbol>
+  <symbol id="pencil" viewBox="0 0 24 24"><path d="M3 21l1.2-4.6L16.6 4l3.4 3.4L7.6 19.8zM14.2 6.4l3.4 3.4M4.2 16.4l3.4 3.4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+</svg>
+<div class="progress" aria-hidden="true"></div>
+
+<nav class="nav" aria-label="Primary">
+  <a class="logo" href="#top"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ball"/></svg>Ansh</a>
+  <div class="links"><a href="#achievements">Achievements</a><a href="#education">Education</a><a href="#sketch">Sketch</a><a href="#interests">Interests</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <svg class="chalk" viewBox="0 0 800 560" aria-hidden="true"><rect x="10" y="10" width="780" height="540"/><path d="M400 10v540"/><circle cx="400" cy="280" r="90"/><circle cx="400" cy="280" r="5"/><rect x="10" y="150" width="130" height="260"/><rect x="660" y="150" width="130" height="260"/><path d="M140 230a60 60 0 0 1 0 100M660 230a60 60 0 0 0 0 100"/></svg>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="hello marker rv" style="--i:0">Hi, I'm Ansh</p>
+      <h1><span class="rv" style="--i:1">Footballer.</span><span class="o rv" style="--i:2">Sketcher.</span><span class="f rv" style="--i:3">BBA student.</span></h1>
+      <p class="sub rv" style="--i:4">District-level football player and winner of a district-level drawing competition, now pursuing a Bachelor of Business Administration through the Digital Business and Entrepreneurship (DBE) programme.</p>
+      <div class="cta rv" style="--i:5"><a class="btn" href="#achievements">See achievements</a><a class="btn alt" href="#sketch">Draw something</a></div>
+      <div class="keepy rv" id="keepy" style="--i:6">
+        <p class="kt marker">keepy-uppy: tap the ball, don't let it drop</p>
+        <div class="kscore"><span><b id="k-s">0</b>Now</span><span><b id="k-b">0</b>Best</span></div>
+        <button class="ball" id="ball" type="button" aria-label="Football. Tap to kick it up."><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#ball"/></svg></button>
+      </div>
+    </div>
+    <div class="card-wrap rv" style="--i:3">
+      <div class="pcard" id="pcard" role="button" tabindex="0" aria-pressed="false" aria-label="Player card. Press to flip it.">
+        <div class="inner">
+          <div class="face front">
+            <img src="assets/profile.jpg" alt="Portrait of Ansh standing in front of a green metal gate" width="350" height="387" fetchpriority="high">
+            <span class="shine"></span>
+            <span class="badge b1">District footballer</span><span class="badge b2">Drawing winner</span>
+            <span class="cap"><b>Ansh</b><small>BBA (DBE) student</small></span>
+          </div>
+          <div class="face back">
+            <strong>Player stats</strong>
+            <ul>
+              <li>Football<b>District level</b></li>
+              <li>Drawing<b>District-level winner</b></li>
+              <li>Class 12<b>86.6%</b></li>
+              <li>Class 10<b>84.8%</b></li>
+              <li>Stream<b>Commerce</b></li>
+              <li>School<b>Kendriya Vidyalaya</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="marker hint">tap the card to flip it</p>
+    </div>
+  </div>
+</header>
+
+<div class="tape" aria-hidden="true">
+  <div class="mq">
+    <span>Football</span><svg viewBox="0 0 24 24"><use href="#ball"/></svg>
+    <span>Sketching</span><svg viewBox="0 0 24 24"><use href="#ball"/></svg>
+    <span>Boxing</span><svg viewBox="0 0 24 24"><use href="#ball"/></svg>
+    <span>MMA</span><svg viewBox="0 0 24 24"><use href="#ball"/></svg>
+    <span>Travelling</span><svg viewBox="0 0 24 24"><use href="#ball"/></svg>
+    <span>Cooking</span><svg viewBox="0 0 24 24"><use href="#ball"/></svg>
+  </div>
+</div>
+
+<main>
+<section id="achievements" class="sec">
+  <div class="wrap">
+    <p class="marker note">the highlights</p>
+    <h2>On the board</h2>
+    <div class="ach">
+      <button class="trophy t1 reveal" type="button"><svg class="big" viewBox="0 0 24 24" aria-hidden="true"><use href="#ball"/></svg><small>Football</small><span class="ttl">District-level Football Player</span></button>
+      <button class="trophy t2 reveal" type="button"><svg class="big pen" viewBox="0 0 24 24" aria-hidden="true"><use href="#pencil"/></svg><small>Drawing</small><span class="ttl">Winner of a District-Level Drawing Competition</span></button>
+    </div>
+    <p class="marker note tap">tap a card to celebrate</p>
+  </div>
+</section>
+
+<section id="education" class="sec chalkbg">
+  <div class="wrap">
+    <p class="marker note">the classroom side</p>
+    <h2>Education</h2>
+    <div class="edu">
+      <ul class="facts reveal">
+        <li><small>Currently pursuing</small><strong>BBA, Digital Business and Entrepreneurship (DBE)</strong><p>Bachelor of Business Administration through the DBE programme.</p></li>
+        <li><small>Academic stream</small><strong>Commerce</strong></li>
+        <li><small>School</small><strong>Kendriya Vidyalaya</strong></li>
+      </ul>
+      <div class="gauges reveal" role="group" aria-label="Academic performance">
+        <div class="gauge" style="--p:86.6"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="g-bg" cx="60" cy="60" r="54"/><circle class="g-fg" cx="60" cy="60" r="54" pathLength="100"/></svg><b data-count="86.6" data-dec="1" data-suf="%">86.6%</b><span>Class 12</span></div>
+        <div class="gauge" style="--p:84.8"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="g-bg" cx="60" cy="60" r="54"/><circle class="g-fg" cx="60" cy="60" r="54" pathLength="100"/></svg><b data-count="84.8" data-dec="1" data-suf="%">84.8%</b><span>Class 10</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sketch" class="sec dark">
+  <div class="wrap">
+    <p class="marker note">he won a district-level drawing competition. give it a go.</p>
+    <h2>Your turn to draw</h2>
+    <div class="padbox" id="padbox"><canvas id="pad" aria-label="Drawing pad. Draw with a mouse, finger or stylus."></canvas><p class="pad-hint" aria-hidden="true">draw here</p></div>
+    <div class="tools">
+      <div class="swatches" role="group" aria-label="Ink colour">
+        <button class="swatch on" type="button" data-c="#111111" style="background:#111111" aria-label="Black"></button>
+        <button class="swatch" type="button" data-c="#FF5A1F" style="background:#FF5A1F" aria-label="Orange"></button>
+        <button class="swatch" type="button" data-c="#145A42" style="background:#145A42" aria-label="Green"></button>
+        <button class="swatch" type="button" data-c="#2F6BFF" style="background:#2F6BFF" aria-label="Blue"></button>
+      </div>
+      <label>Brush <input id="size" type="range" min="2" max="24" value="5"></label>
+      <button class="btn sm" id="undo" type="button">Undo</button>
+      <button class="btn sm" id="clear" type="button">Clear</button>
+      <button class="btn sm" id="save" type="button">Save as PNG</button>
+    </div>
+  </div>
+</section>
+
+<section id="interests" class="sec chalkbg">
+  <div class="wrap">
+    <p class="marker note">off the pitch</p>
+    <h2>Interests</h2>
+    <ul class="rows">
+      <li><button class="row" type="button"><span>Football</span><i></i></button></li>
+      <li><button class="row" type="button"><span>Sketching and Drawing</span><i></i></button></li>
+      <li><button class="row" type="button"><span>Boxing</span><i></i></button></li>
+      <li><button class="row" type="button"><span>Mixed Martial Arts (MMA)</span><i></i></button></li>
+      <li><button class="row" type="button"><span>Travelling</span><i></i></button></li>
+      <li><button class="row" type="button"><span>Cooking</span><i></i></button></li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="sec dark pitchbg">
+  <div class="wrap">
+    <p class="marker note">say hello</p>
+    <h2>Let's talk</h2>
+    <div class="cgrid">
+      <div class="cc reveal"><small>Phone</small><a href="tel:+918100210445">+91 8100210445</a><button class="copy" type="button" data-copy="+91 8100210445">Copy</button></div>
+      <div class="cc reveal"><small>Email</small><a href="mailto:anshjai769@gmail.com">anshjai769@gmail.com</a><button class="copy" type="button" data-copy="anshjai769@gmail.com">Copy</button></div>
+    </div>
+    <button class="btn" type="button" data-print>Print / Save Resume PDF</button>
+  </div>
+</section>
+</main>
+
+<footer class="foot">&copy; 2026 Ansh</footer>
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="script.js" defer></script>
+</body>
+</html>
